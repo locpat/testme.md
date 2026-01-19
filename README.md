@@ -1,8 +1,13 @@
-# TESTME.md
+<div align="center">
 
-> Human-readable test specifications for AI agents
+# `TESTME.md`
 
-## What is TESTME.md?
+<i>Human-readable test specifications for AI agents</i>
+
+[![Release](https://img.shields.io/github/release/evilsocket/testme.md.svg?style=flat-square)](https://github.com/evilsocket/testme.md/releases/latest)
+[![License](https://img.shields.io/badge/license-GPL3-brightgreen.svg?style=flat-square)](https://github.com/evilsocket/testme.md/blob/master/LICENSE.md)
+
+</div>
 
 TESTME.md is a convention for writing test specifications in plain Markdown that both humans and AI agents can understand and execute. Instead of verbose test code, you describe tests in natural language with clear steps and expectations.
 
@@ -139,3 +144,5 @@ See the [specification](SPECS.md#for-ai-agents) for detailed guidelines.
 ## License
 
 This project is released under the [GNU General Public License v3.0](LICENSE).
+
+[![Star History Chart](https://api.star-history.com/svg?repos=evilsocket/testme.md&type=Date)](https://star-history.com/#evilsocket/testme.md&Date)
