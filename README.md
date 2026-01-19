@@ -46,13 +46,39 @@ test.describe('Login Page', () => {
 **Expect:** Error message is visible
 ```
 
+## This Repository
+
+This repo contains everything you need to adopt TESTME.md:
+
+| File | Purpose |
+|------|---------|
+| [TESTME-SPEC.md](TESTME-SPEC.md) | The complete specification (v1.0) |
+| [WRITE_TESTME.md](WRITE_TESTME.md) | Instructions for AI agents to write TESTME.md files |
+| [examples/](examples/) | Real-world examples by pattern |
+
+### Workflow
+
+1. **Read the spec** — Understand the format via [TESTME-SPEC.md](TESTME-SPEC.md)
+2. **Generate tests** — Give an AI agent [WRITE_TESTME.md](WRITE_TESTME.md) to analyze your codebase and create TESTME.md files
+3. **Run tests** — Have an AI agent execute the TESTME.md files and report results
+
 ## Getting Started
+
+### Option 1: Write Tests Manually
 
 1. Read the [full specification](TESTME-SPEC.md)
 2. Browse the [examples](examples/)
 3. Create a `TESTME.md` in your project
 
+### Option 2: Generate Tests with AI
+
+1. Copy the contents of [WRITE_TESTME.md](WRITE_TESTME.md)
+2. Give it to an AI agent along with your codebase
+3. The agent will analyze your code and generate TESTME.md files
+
 ## File Structure
+
+In your project:
 
 ```
 your-project/
@@ -68,10 +94,15 @@ your-project/
 
 ## Documentation
 
-- **[TESTME-SPEC.md](TESTME-SPEC.md)** — Complete specification document
-- **[examples/](examples/)** — Real-world examples by pattern
+| Document | Description |
+|----------|-------------|
+| [TESTME-SPEC.md](TESTME-SPEC.md) | Complete format specification |
+| [WRITE_TESTME.md](WRITE_TESTME.md) | Agent prompt for generating TESTME.md files |
+| [examples/](examples/) | Example files covering common patterns |
 
 ## For AI Agents
+
+### Executing Tests
 
 AI agents should:
 
@@ -81,6 +112,10 @@ AI agents should:
 4. Report results in a clear format
 
 See the [specification](TESTME-SPEC.md#for-ai-agents) for detailed execution guidelines.
+
+### Writing Tests
+
+To generate TESTME.md files for a codebase, use [WRITE_TESTME.md](WRITE_TESTME.md) as your instruction set.
 
 ## License
 
