@@ -1,6 +1,6 @@
-# TESTME.md Examples
+# TESTME.md Example
 
-This directory contains example TESTME.md files demonstrating various testing patterns and use cases.
+This directory contains example TESTME.md files for a fictional e-commerce application, demonstrating various testing patterns and use cases.
 
 ## Files
 

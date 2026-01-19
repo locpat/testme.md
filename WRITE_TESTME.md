@@ -5,7 +5,7 @@ You are tasked with creating TESTME.md test specification files for this codebas
 ## Specification Reference
 
 Follow the TESTME.md specification:
-https://github.com/evilsocket/testme.md/blob/main/TESTME-SPEC.md
+https://github.com/evilsocket/testme.md/blob/main/SPECS.md
 
 ## Your Task
 
