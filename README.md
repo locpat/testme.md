@@ -53,14 +53,15 @@ This repo contains everything you need to adopt TESTME.md:
 | File | Purpose |
 |------|---------|
 | [SPECS.md](SPECS.md) | The complete specification (v1.0.0a) |
-| [WRITE.md](WRITE.md) | Instructions for AI agents to write TESTME.md files |
+| [WRITE.md](WRITE.md) | Agent instructions to generate TESTME.md files |
+| [QA.md](QA.md) | Agent instructions to execute TESTME.md files |
 | [example/](example/) | Complete example for an e-commerce application |
 
 ### Workflow
 
 1. **Read the spec** — Understand the format via [SPECS.md](SPECS.md)
 2. **Generate tests** — Give an AI agent [WRITE.md](WRITE.md) to analyze your codebase and create TESTME.md files
-3. **Run tests** — Have an AI agent execute the TESTME.md files and report results
+3. **Run tests** — Give an AI agent [QA.md](QA.md) to find and execute TESTME.md files
 
 ## Getting Started
 
@@ -84,6 +85,14 @@ Or manually:
 2. Give it to an AI agent along with your codebase
 3. The agent will analyze your code and generate TESTME.md files
 
+### Option 3: Run Tests with AI
+
+```bash
+curl -s https://raw.githubusercontent.com/evilsocket/testme.md/main/QA.md | cursor
+```
+
+The agent will find all TESTME.md files and execute them, reporting results.
+
 ## File Structure
 
 In your project:
@@ -106,24 +115,20 @@ your-project/
 |----------|-------------|
 | [SPECS.md](SPECS.md) | Complete format specification |
 | [WRITE.md](WRITE.md) | Agent prompt for generating TESTME.md files |
+| [QA.md](QA.md) | Agent prompt for executing TESTME.md files |
 | [example/](example/) | Example TESTME.md files for an e-commerce app |
 
 ## For AI Agents
 
-### Executing Tests
-
-AI agents should:
-
-1. Look for `TESTME.md` or `*.testme.md` files in the repository
-2. Parse Prerequisites, Setup, Tests, and Teardown sections
-3. Execute steps and verify expectations
-4. Report results in a clear format
-
-See the [specification](SPECS.md#for-ai-agents) for detailed execution guidelines.
-
 ### Writing Tests
 
 To generate TESTME.md files for a codebase, use [WRITE.md](WRITE.md) as your instruction set.
+
+### Executing Tests
+
+To find and execute TESTME.md files, use [QA.md](QA.md) as your instruction set.
+
+See the [specification](SPECS.md#for-ai-agents) for detailed guidelines.
 
 ## License
 
