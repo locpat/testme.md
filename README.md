@@ -52,14 +52,14 @@ This repo contains everything you need to adopt TESTME.md:
 
 | File | Purpose |
 |------|---------|
-| [SPECS.md](SPECS.md) | The complete specification (v1.0) |
-| [WRITE_TESTME.md](WRITE_TESTME.md) | Instructions for AI agents to write TESTME.md files |
+| [SPECS.md](SPECS.md) | The complete specification (v1.0.0a) |
+| [WRITE.md](WRITE.md) | Instructions for AI agents to write TESTME.md files |
 | [example/](example/) | Complete example for an e-commerce application |
 
 ### Workflow
 
 1. **Read the spec** — Understand the format via [SPECS.md](SPECS.md)
-2. **Generate tests** — Give an AI agent [WRITE_TESTME.md](WRITE_TESTME.md) to analyze your codebase and create TESTME.md files
+2. **Generate tests** — Give an AI agent [WRITE.md](WRITE.md) to analyze your codebase and create TESTME.md files
 3. **Run tests** — Have an AI agent execute the TESTME.md files and report results
 
 ## Getting Started
@@ -75,12 +75,12 @@ This repo contains everything you need to adopt TESTME.md:
 Pipe the instructions directly to your AI agent:
 
 ```bash
-curl -s https://raw.githubusercontent.com/evilsocket/testme.md/main/WRITE_TESTME.md | cursor
+curl -s https://raw.githubusercontent.com/evilsocket/testme.md/main/WRITE.md | cursor
 ```
 
 Or manually:
 
-1. Copy the contents of [WRITE_TESTME.md](WRITE_TESTME.md)
+1. Copy the contents of [WRITE.md](WRITE.md)
 2. Give it to an AI agent along with your codebase
 3. The agent will analyze your code and generate TESTME.md files
 
@@ -105,7 +105,7 @@ your-project/
 | Document | Description |
 |----------|-------------|
 | [SPECS.md](SPECS.md) | Complete format specification |
-| [WRITE_TESTME.md](WRITE_TESTME.md) | Agent prompt for generating TESTME.md files |
+| [WRITE.md](WRITE.md) | Agent prompt for generating TESTME.md files |
 | [example/](example/) | Example TESTME.md files for an e-commerce app |
 
 ## For AI Agents
@@ -123,7 +123,7 @@ See the [specification](SPECS.md#for-ai-agents) for detailed execution guideline
 
 ### Writing Tests
 
-To generate TESTME.md files for a codebase, use [WRITE_TESTME.md](WRITE_TESTME.md) as your instruction set.
+To generate TESTME.md files for a codebase, use [WRITE.md](WRITE.md) as your instruction set.
 
 ## License
 

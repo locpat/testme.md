@@ -1,6 +1,6 @@
 # TESTME.md Specification
 
-**Version 1.0**
+**Version 1.0.0a**
 
 A convention for writing human-readable test specifications that AI agents can execute.
 
@@ -738,7 +738,7 @@ Use horizontal rules to separate test groups:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2024 | Initial specification |
+| 1.0.0a | 2025 | Initial specification (alpha) |
 
 ---
 
