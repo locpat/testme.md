@@ -16,7 +16,23 @@ TESTME.md is a convention for writing test specifications in plain Markdown that
 | Requires developer knowledge | Anyone can read and write |
 | Tight coupling to implementation | Intent-focused |
 
-## Quick Example
+## Quick Start
+
+Generate TESTME.md files for your codebase:
+
+```bash
+curl -s https://raw.githubusercontent.com/evilsocket/testme.md/main/WRITE.md | cursor
+```
+
+Execute existing TESTME.md files:
+
+```bash
+curl -s https://raw.githubusercontent.com/evilsocket/testme.md/main/QA.md | cursor
+```
+
+> **Note:** These examples use [Cursor](https://cursor.sh), but any AI agent works. You can pipe to other CLI agents, or copy/paste the file contents into ChatGPT, Claude, or any AI assistant with access to your codebase.
+
+## Example
 
 **Before** — 15 lines of TypeScript:
 
@@ -48,8 +64,6 @@ test.describe('Login Page', () => {
 
 ## This Repository
 
-This repo contains everything you need to adopt TESTME.md:
-
 | File | Purpose |
 |------|---------|
 | [SPECS.md](SPECS.md) | The complete specification (v1.0.0a) |
@@ -63,35 +77,27 @@ This repo contains everything you need to adopt TESTME.md:
 2. **Generate tests** — Give an AI agent [WRITE.md](WRITE.md) to analyze your codebase and create TESTME.md files
 3. **Run tests** — Give an AI agent [QA.md](QA.md) to find and execute TESTME.md files
 
-## Getting Started
+## Manual Setup
 
-### Option 1: Write Tests Manually
+If you prefer not to use the curl commands, you can set things up manually.
+
+### Writing Tests Manually
 
 1. Read the [full specification](SPECS.md)
 2. Browse the [example](example/)
 3. Create a `TESTME.md` in your project
 
-### Option 2: Generate Tests with AI
-
-Pipe the instructions directly to your AI agent:
-
-```bash
-curl -s https://raw.githubusercontent.com/evilsocket/testme.md/main/WRITE.md | cursor
-```
-
-Or manually:
+### Generating Tests with AI
 
 1. Copy the contents of [WRITE.md](WRITE.md)
-2. Give it to an AI agent along with your codebase
+2. Paste it into your AI agent (with codebase access)
 3. The agent will analyze your code and generate TESTME.md files
 
-### Option 3: Run Tests with AI
+### Running Tests with AI
 
-```bash
-curl -s https://raw.githubusercontent.com/evilsocket/testme.md/main/QA.md | cursor
-```
-
-The agent will find all TESTME.md files and execute them, reporting results.
+1. Copy the contents of [QA.md](QA.md)
+2. Paste it into your AI agent (with codebase access)
+3. The agent will find all TESTME.md files and execute them
 
 ## File Structure
 
