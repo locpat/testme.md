@@ -138,4 +138,4 @@ See the [specification](SPECS.md#for-ai-agents) for detailed guidelines.
 
 ## License
 
-This specification is released under the MIT License. Feel free to adopt and adapt it for your projects.
+This project is released under the [GNU General Public License v3.0](LICENSE).
